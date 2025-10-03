@@ -26,6 +26,6 @@ jobs:
         polaris_reports_sarif_severities: "CRITICAL"
         polaris_reports_sarif_groupSCAIssues: false
         polaris_reports_sarif_issue_types: "SAST,SCA"
-        detect_args: "--detect.source.path: ${{ github.workspace }}/nodejs-npm"
+        #detect_args: "--detect.source.path: ${{ github.workspace }}/nodejs-npm"
 
       
